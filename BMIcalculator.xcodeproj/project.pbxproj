@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		B0CE3F0524DBEEE9004E617F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE3F0424DBEEE9004E617F /* AppDelegate.swift */; };
 		B0CE3F0724DBEEE9004E617F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE3F0624DBEEE9004E617F /* SceneDelegate.swift */; };
-		B0CE3F0924DBEEE9004E617F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE3F0824DBEEE9004E617F /* ViewController.swift */; };
+		B0CE3F0924DBEEE9004E617F /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE3F0824DBEEE9004E617F /* CalculateViewController.swift */; };
 		B0CE3F0C24DBEEE9004E617F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE3F0A24DBEEE9004E617F /* Main.storyboard */; };
 		B0CE3F0E24DBEEEB004E617F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CE3F0D24DBEEEB004E617F /* Assets.xcassets */; };
 		B0CE3F1124DBEEEB004E617F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE3F0F24DBEEEB004E617F /* LaunchScreen.storyboard */; };
 		B0CE3F1924DBEEFC004E617F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0CE3F1824DBEEFC004E617F /* .gitignore */; };
+		B0CE3F2124DD3B3A004E617F /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE3F2024DD3B3A004E617F /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0CE3F0124DBEEE9004E617F /* BMIcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CE3F0424DBEEE9004E617F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0CE3F0624DBEEE9004E617F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0CE3F0824DBEEE9004E617F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0CE3F0824DBEEE9004E617F /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		B0CE3F0B24DBEEE9004E617F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0CE3F0D24DBEEEB004E617F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0CE3F1024DBEEEB004E617F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0CE3F1224DBEEEB004E617F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0CE3F1824DBEEFC004E617F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B0CE3F2024DD3B3A004E617F /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,8 @@
 		B0CE3F1C24DC84B7004E617F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B0CE3F0824DBEEE9004E617F /* ViewController.swift */,
+				B0CE3F0824DBEEE9004E617F /* CalculateViewController.swift */,
+				B0CE3F2024DD3B3A004E617F /* ResultsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,9 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0CE3F0924DBEEE9004E617F /* ViewController.swift in Sources */,
+				B0CE3F0924DBEEE9004E617F /* CalculateViewController.swift in Sources */,
 				B0CE3F0524DBEEE9004E617F /* AppDelegate.swift in Sources */,
 				B0CE3F0724DBEEE9004E617F /* SceneDelegate.swift in Sources */,
+				B0CE3F2124DD3B3A004E617F /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
